@@ -1,0 +1,4 @@
+edit_contacts::Add/Edit Contacts
+delete_contacts::Delete Contacts
+view_privates::View Private Contacts
+edit_settings::Edit Settings

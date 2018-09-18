@@ -1,0 +1,58 @@
+en:|:phpwscontacts
+a:|:Add / Edit My Contact Information:|:Add / Edit My Contact Information
+a:|:Add New Contact:|:Add New Contact
+a:|:Address:|:Address
+a:|:Allow Anonymous Viewing of Contacts:|:Allow Anonymous Viewing of Contacts
+a:|:Allows you to set your contact information.:|:Allows you to set your contact information.
+a:|:Alt Email 1:|:Alt Email 1
+a:|:Alt Email 2:|:Alt Email 2
+a:|:Anniversary:|:Anniversary
+a:|:Are you sure you want to delete this contact?:|:Are you sure you want to delete this contact?
+a:|:Birthday:|:Birthday
+a:|:Browse Contacts:|:Browse Contacts
+a:|:Category:|:Category
+a:|:City:|:City
+a:|:Comments:|:Comments
+a:|:Company:|:Company
+a:|:Contacts:|:Contacts
+a:|:Contacts provides extended user information.:|:Contacts provides extended user information.
+a:|:Country:|:Country
+a:|:Delete Contact Confirmation:|:Delete Contact Confirmation
+a:|:Download CSV:|:Download CSV
+a:|:Edit Contact Information:|:Edit Contact Information
+a:|:Fax:|:Fax
+a:|:First:|:First
+a:|:Get vCard:|:Get vCard
+a:|:Home:|:Home
+a:|:Import vCard:|:Import vCard
+a:|:Last:|:Last
+a:|:List Contacts:|:List Contacts
+a:|:Middle:|:Middle
+a:|:Mobile:|:Mobile
+a:|:Other:|:Other
+a:|:Pager:|:Pager
+a:|:Personal:|:Personal
+a:|:Personal Information:|:Personal Information
+a:|:Phone:|:Phone
+a:|:Phone Numbers:|:Phone Numbers
+a:|:Prefix:|:Prefix
+a:|:Private:|:Private
+a:|:Protected:|:Protected
+a:|:Primary Information:|:Primary Information
+a:|:Public:|:Public
+a:|:Sort Contacts by First Name instead of Last Name:|:Sort Contacts by First Name instead of Last Name
+a:|:State:|:State
+a:|:Street:|:Street
+a:|:Suffix:|:Suffix
+a:|:The contact was successfully saved.:|:The contact was successfully saved.
+a:|:The contact [var1] was successfully deleted from the database.:|:The contact [var1] was successfully deleted from the database.
+a:|:The image for [var1] was removed.:|:The image for [var1] was removed.
+a:|:Title:|:Title
+a:|:vCard:|:vCard
+a:|:View:|:View
+a:|:View Contact Information:|:View Contact Information
+a:|:Visibility:|:Visibility
+a:|:Website:|:Website
+a:|:Work:|:Work
+a:|:Work Information:|:Work Information
+a:|:Zip/Postal:|:Zip/Postal

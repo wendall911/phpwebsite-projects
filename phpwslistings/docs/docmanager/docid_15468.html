@@ -1,0 +1,48 @@
+<!--
+$Id: docid_15468.html,v 1.3 2003/02/28 20:14:09 dtseiler Exp $
+-->
+<font size=-2><pre>
+$Author: dtseiler $
+$Revision: 1.3 $
+$Date: 2003/02/28 20:14:09 $
+</pre></font>
+
+<div align="center"><h2><a name="top">Form Elements</a></h2></div>
+
+<blockquote>
+      <p>The dynamic form elements are what make and break phpwsListings.  These allow you to (hopefully) model anything you could desire, and use that model to list items of that type on the website.</p>
+</blockquote>
+
+<p><br />
+<b><a name="fields">Form Element Fields</a></b>&nbsp;<a
+    href="#fields">&raquo;</a></p>
+<blockquote>
+<p>When creating or editing a form element, you will be presented with a number of fields that describe that element.  Those fields, and their descriptions are:
+<dl>
+<dt><b>Field Type</b></dt>
+<dd>The type of form element this is:  Text, Textarea (large text box), Select List (drop-down list), Select Multiple (list box that allows multiple selections by holding down the "Ctrl" key), Radio Buttons, and Check Boxes.  There is also an option called "Blank Line".  This will print a blank line to give you some semblance of formatting control.  In the current incarnation all form elements will just be printed one per line, so a blank line will give some "vertical whitespace" and add a hint of separation and organization.</dd>
+<dt><b>Field Name</b></dt>
+<dd>This is the "code" name of the field that the system will use to track the element.  This value should have no spaces or special characters except the underscore, and should be all lowercase.  An example would be "city" for a City field or "street_address" for a Street Address field.</dd>
+<dt><b>Field Caption</b></dt>
+<dd>This is the "human readable" version of "Field Name", so you can have "City" or "Street Address" or whatever captions describe your field to your users.</dd>
+<dt><b>Default Text</b></dt>
+<dd>This is the default text that will appear when a user creates a new listing that uses this form element.  Some examples might be if you wanted to pre-select a "No" value in a drop-down list or have the words "Enter a description here" in a textbox.</dd>
+<dt><b>Field Elements</b></dt>
+<dd>Field elements are only used for Select List, Select Multiple, Radio Buttons, and Check Boxes.  The field elements string represents the options that will be part of these elements.  The string needs to be in the format "option1||option2||option3||etc", meaning each option separated by double "pipe" characters.  I recommend leaving the first option blank, so you will have a blank option at the beginning of the list.  So my example would then by "||option1||option2||option3||etc".  This field is stored as a text element in the database and can be pretty long.</dd>
+<dt><b>Rank</b></dt>
+<dd>The rank that you want this form element displayed amongst the others.  Rank #1 will be at the top.  Equal ranks will be sorted alphabetically.</dd>
+<dt><b>Required</b></dt>
+<dd>Yes/No if you want this to be a required field in the listing.  If Yes, the user will not be allowed to save his/her listing without completing this field.</dd>
+<dt><b>Display on Browse</b></dt>
+<dd>Yes/No if you want this field to be displayed in "browse" mode.  Browse mode is used for showing a list of listings like in the Featured Listing section or Search Results.</dd>
+<dt><b>Agent Only</b></dt>
+<dd>Yes/No if you want this to only be visible by active agents.  This is useful for agents to share information about a listing with one another, but not with the general public.</dd>
+</dl>
+</p>
+</blockquote>
+
+<br />
+    <a href="#top">Return to the top of this page.</a></p>
+    <hr />
+    <p style="margin-top: 0cm">If you still have questions or concerns regarding this document, please feel free to <a
+    href="https://sourceforge.net/tracker/?func=add&amp;group_id=73598&amp;atid=538275">submit a support request</a>.</p>

@@ -1,0 +1,175 @@
+en:|:announce
+a:|:$:|:$
+a:|:Action:|:Action
+a:|:Activate Agent:|:Activate Agent
+a:|:Add Image:|:Add Image
+a:|:Address:|:Address
+a:|:Agency:|:Agency
+a:|:Agency Deleted!:|:Agency Deleted!
+a:|:Agency List:|:Agency List
+a:|:Agency Saved:|:Agency Saved
+a:|:Agency Updated:|:Agency Updated
+a:|:Agent:|:Agent
+a:|:Agent List:|:Agent List
+a:|:Agent Only:|:Agent Only
+a:|:Agent Saved:|:Agent Saved
+a:|:Are you sure you wish to delete this agency?:|:Are you sure you wish to delete this agency?
+a:|:Are you sure you wish to delete this form element?:|:Are you sure you wish to delete this form element?
+a:|:Are you sure you wish to delete this image?:|:Are you sure you wish to delete this image?
+a:|:Are you sure you wish to delete this listing?:|:Are you sure you wish to delete this listing?
+a:|:Bio:|:Bio
+a:|:Caption:|:Caption
+a:|:Comments:|:Comments
+a:|:Contact Agent:|:Contact Agent
+a:|:Click image to edit:|:Click image to edit
+a:|:Create Agent:|:Create Agent
+a:|:Create Agency:|:Create Agency
+a:|:Create Form Element:|:Create Form Element
+a:|:Create Listing:|:Create Listing
+a:|:Date Listed:|:Date Listed
+a:|:Date Sold:|:Date Sold
+a:|:Deactivate Agent:|:Deactivate Agent
+a:|:Default Text:|:Default Text
+a:|:Delete Agency:|:Delete Agency
+a:|:Delete Agency?:|:Delete Agency?
+a:|:Delete Form Element:|:Delete Form Element
+a:|:Delete Form Element?:|:Delete Form Element?
+a:|:Delete Image:|:Delete Image
+a:|:Delete Image?:|:Delete Image?
+a:|:Delete Listing?:|:Delete Listing?
+a:|:Display on Browse:|:Display on Browse
+a:|:Display only listings with images in block?:|:Display only listings with images in block?
+a:|:Edit Agency:|:Edit Agency
+a:|:Edit Agent:|:Edit Agent
+a:|:Edit Form Element:|:Edit Form Element
+a:|:Edit Image:|:Edit Image
+a:|:Edit Listing:|:Edit Listing
+a:|:Either update your $gif2png variable or have your system administrator install gif2png.:|:Either update your $gif2png variable or have your system administrator install gif2png.
+a:|:Email sent:|:Email sent
+a:|:ERROR!:|:ERROR!
+a:|:Fax:|:Fax
+a:|:Feature:|:Feature
+a:|:Features / Results Per Page:|:Features / Results Per Page
+a:|:Featured:|:Featured
+a:|:Featured Listings:|:Featured Listings
+a:|:Field Caption:|:Field Caption
+a:|:Field Elements:|:Field Elements
+a:|:Field Name:|:Field Name
+a:|:Field Type:|:Field Type
+a:|:First Name:|:First Name
+a:|:Form Element List:|:Form Element List
+a:|:Form Element Saved:|:Form Element Saved
+a:|:Form Element Updated:|:Form Element Updated
+a:|:Form Element Deleted!:|:Form Element Deleted!
+a:|:Friend's name:|:Friend's name
+a:|:Friend's email:|:Friend's email
+a:|:Go back to your listing.:|:Go back to your listing.
+a:|:Homepage:|:Homepage
+a:|:Hide:|:Hide
+a:|:Hide Agency:|:Hide Agency
+a:|:If the problem persists contact your system administrator.:|:If the problem persists contact your system administrator.
+a:|:Image:|:Image
+a:|:Image Deleted!:|:Image Deleted!
+a:|:Image Saved:|:Image Saved
+a:|:Image size limit (kb):|:Image size limit (kb)
+a:|:Maximum Image Width (pixels):|:Maximum Image Width (pixels)
+a:|:Maximum Image Height (pixels):|:Maximum Image Height (pixels)
+a:|:Image Width Resize (pixels):|:Image Width Resize (pixels)
+a:|:Image Height Resize (pixels):|:Image Height Resize (pixels)
+a:|:Last Name:|:Last Name
+a:|:List Agents:|:List Agents
+a:|:Listed by:|:Listed by
+a:|:Listed on:|:Listed on
+a:|:Listing Date:|:Listing Date
+a:|:Listing Deleted!:|:Listing Deleted!
+a:|:Listing List:|:Listing List
+a:|:Listing Saved:|:Listing Saved
+a:|:Listing Settings:|:Listing Settings
+a:|:Listing Updated:|:Listing Updated
+a:|:Listings Menu:|:Listings Menu
+a:|:Main images must be ranked 1:|:Main images must be ranked 1
+a:|:Manage Agencies:|:Manage Agencies
+a:|:Manage Agents:|:Manage Agents
+a:|:Manage Form Elements:|:Manage Form Elements
+a:|:Manage Listings:|:Manage Listings
+a:|:Maximum Images Per Listing:|:Maximum Images Per Listing
+a:|:Maximum Price:|:Maximum Price
+a:|:Minimum Price:|:Minimum Price
+a:|:Mobile:|:Mobile
+a:|:Mortgage Calculator:|:Mortgage Calculator
+a:|:New Agency:|:New Agency
+a:|:No image was specified.:|:No image was specified.
+a:|:No agencies found!:|:No agencies found!
+a:|:No featured listings found!:|:No featured listings found!
+a:|:No listings found.:|:No listings found.
+a:|:No form elements found!:|:No form elements found!
+a:|:No listings found!:|:No listings found!
+a:|:No matches found!:|:No matches found!
+a:|:Notes:|:Notes
+a:|:Number of listings in block:|:Number of listings in block
+a:|:Opens New Window:|:Opens New Window
+a:|:Phone:|:Phone
+a:|:Price:|:Price
+a:|:Printable Version:|:Printable Version
+a:|:Random Listings:|:Random Listings
+a:|:Rank:|:Rank
+a:|:Remove Image:|:Remove Image
+a:|:Required:|:Required
+a:|:Save Agency:|:Save Agency
+a:|:Save Agent:|:Save Agent
+a:|:Save Element:|:Save Element
+a:|:Save Form Element:|:Save Form Element
+a:|:Save Image:|:Save Image
+a:|:Save Settings:|:Save Settings
+a:|:Search Listings:|:Search Listings
+a:|:Search Results:|:Search Results
+a:|:See details!:|:See details!
+a:|:Send Email:|:Send Email
+a:|:Send Listing Email for:|:Send Listing Email for
+a:|:Send to a Friend:|:Send to a Friend
+a:|:Separated with double-bars: "apples||oranges||bananas":|:Separated with double-bars: "apples||oranges||bananas"
+a:|:Settings Saved!:|:Settings Saved!
+a:|:Short Description:|:Short Description
+a:|:Show:|:Show
+a:|:Show Agency:|:Show Agency
+a:|:Show Block:|:Show Block
+a:|:Show Feature Listings:|:Show Feature Listings
+a:|:Sold:|:Sold
+a:|:Sort By:|:Sort By
+a:|:State:|:State
+a:|:The agency was successfully <b>deleted</b>.:|:The agency was successfully <b>deleted</b>.
+a:|:The agent was successfully saved.:|:The agent was successfully saved.
+a:|:The allowed types are:|:The allowed types are
+a:|:The file you uploaded is not an allowed type on this server:|:The file you uploaded is not an allowed type on this server
+a:|:The form element was successfully deleted.:|:The form element was successfully <b>deleted</b>.
+a:|:The image file is too large.:|:The image file is too large.
+a:|:The image was successfully <b>deleted</b>.:|:The image was successfully <b>deleted</b>.
+a:|:The listing was successfully <b>deleted</b>.:|:The listing was successfully <b>deleted</b>.
+a:|:The maximum file size allowed is:|:The maximum file size allowed is
+a:|:There was a problem updating your listing.:|:There was a problem updating your listing.
+a:|:Title:|:Title
+a:|:Unable to delete image and thumbnail files.:|:Unable to delete image and thumbnail files.
+a:|:Until then, you will not be able to use gif images.  We suggest using png or jpeg images instead.:|:Until then, you will not be able to use gif images.  We suggest using png or jpeg images instead.
+a:|:Updated on:|:Updated on
+a:|:Use Mortgage Calculator:|:Use Mortgage Calculator
+a:|:UserID:|:UserID
+a:|:View Agent:|:View Agent
+a:|:View Listings:|:View Listings
+a:|:View My Listings:|:View My Listings
+a:|:View Our Listings:|:View Our Listings
+a:|:Viewing Image:|:Viewing Image
+a:|:You are missing a required field.  Please make sure all required fields (marked with a "*") are completed.:|:You are missing a required field.  Please make sure all required fields (marked with a "*") are completed.
+a:|:You are missing the gif2png program.:|:You are missing the gif2png program.
+a:|:You are not an active agent.  Please contact the website administrator to change this.:|:You are not an active agent.  Please contact the website administrator to change this.
+a:|:Your agency was successfully saved.:|:Your agency was successfully saved.
+a:|:Your agency was successfully updated.:|:Your agency was successfully updated.
+a:|:Your configuration indicates it should be located at:|:Your configuration indicates it should be located at
+a:|:Your email:|:Your email
+a:|:Your email was successfully sent.:|:Your email was successfully sent.
+a:|:Your element was successfully saved.:|:Your element was successfully saved.
+a:|:Your element was successfully updated.:|:Your element was successfully updated.
+a:|:Your image was successfully saved.:|:Your image was successfully saved.
+a:|:Your listing was successfully saved.:|:Your listing was successfully saved.
+a:|:Your listing was successfully updated.:|:Your listing was successfully updated.
+a:|:Your name:|:Your name
+a:|:Your settings have successfully been saved!:|:Your settings have successfully been saved!

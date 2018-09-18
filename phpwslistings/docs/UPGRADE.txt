@@ -1,0 +1,39 @@
+# Upgrade for phpwsListings
+# $Id: UPGRADE.txt,v 1.4 2004/12/02 20:51:15 wendall911 Exp $
+
+Upgrade steps for phpwsListings
+
+1. Download the .tar.gz from a sourceforge mirror.
+
+2. Unpack the tarball with:
+    tar -xvzf phpwslistings-*.tar.gz
+
+3. Move the directory to /your/install/path/mod/
+
+    Example: If you are upgrading to phpwsListings 0.3.2 and your
+    phpWebSite doc root is /var/www/localhost/htdocs, you would run
+    
+    mv phpwslistings /var/www/localhost/htdocs/mod/phpwslistings
+
+    Note: Be sure to overwrite the old dirctory. Running the new version and the
+    old version together may cause problems.
+
+4. BACKUP YOUR DATABASE.  If you use mysql, mysqldump is recommended.
+
+5. Go to your phpWS website and upgrade phpwsListings from Boost in your control
+   panel.
+
+6. There is a new "Default" Listing Class setting for your Listing Classes. One 
+   has been set to default for you.  You should go to the Manage Listing Classes
+   screen and edit the name to whatever class best suits your listings.  Also 
+   note that the "Use Mortgage Calculator" setting has been moved to the class 
+   level, as has been the "Use Price" setting.
+
+   DO NOT DELETE THE "Default" CLASS.  You cannot re-assign listings to
+   other classes, deleting the default class will leave existing listings
+   in limbo and only an manual sql call will repair it.
+   
+If you are having trouble with these procedures please file a Support
+Request at our sourceforge.net project site:
+
+https://sourceforge.net/tracker/?func=add&group_id=73598&atid=538275

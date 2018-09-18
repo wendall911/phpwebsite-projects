@@ -1,0 +1,92 @@
+en:|:rssfeeds
+a:|:Add RSS Feed:|:Add RSS Feed
+//a:|:Click this button to add a RSS Feed by filling in a form.  You can choose to hide the Feed for later display.:|:Click this button to add a RSS Feed by filling in a form.  You can choose to hide the Feed for later display.
+a:|:Title:|:Title
+a:|:Hidden:|:Hidden
+a:|:ID:|:ID
+a:|:Edit:|:Edit
+a:|:Delete:|:Delete
+a:|:Hide:|:Hide
+a:|:Show:|:Show
+a:|:View:|:View
+a:|:Link:|:Link
+a:|:Description:|:Description
+a:|:Back:|:Back
+a:|:Update:|:Update
+a:|:Footer:|:Footer
+a:|:Save:|:Save
+a:|:Continue:|:Continue
+a:|:Error:|:Error
+a:|:Category:|:Category
+a:|:Create Menu Link:|:Create Menu Link
+//a:|:Click this button to create a menu item that links to (displays) this listing of available feeds.:|:Click this button to create a menu item that links to (displays) this listing of available feeds.
+a:|:Channel:|:Channel
+a:|:Yes:|:Yes
+a:|:No:|:No
+a:|:Edit RSS Feed:|:Edit RSS Feed
+a:|:Channel Title:|:Channel Title
+a:|:Choose one or more categories that best fit this channel.:|:Choose one or more categories that best fit this channel.
+a:|:Choose a title that best fits this RSS Feed.:|:Choose a title that best fits this RSS Feed.
+a:|:Channel URL:|:Channel URL
+a:|:Enter the URL for this RSS Feed.:|:Enter the URL for this RSS Feed.
+a:|:Footer:|:Footer
+a:|:Select a footer to appear at the bottom of this feed. You may need a disclaimer for some content, this is a good place for it.:|:Select a footer to appear at the bottom of this feed. You may need a disclaimer for some content, this is a good place for it.
+a:|:Show Channel Title:|:Show Channel Title
+a:|:Selecting Yes with this option shows the channel title for this RSS feed.:|:Selecting Yes with this option shows the channel title for this RSS feed.
+a:|:Show Channel Image:|:Show Channel Image
+a:|:Selecting Yes with this option shows the channel image for this RSS feed.:|:Selecting Yes with this option shows the channel image for this RSS feed.
+a:|:Show Channel Title as Link:|:Show Channel Title as Link
+a:|:Selecting Yes with this option shows the channel title as a link.:|:Selecting Yes with this option shows the channel title as a link.
+a:|:Show Channel Description:|:Show Channel Description
+a:|:Selecting Yes with this option shows the channel description.:|:Selecting Yes with this option shows the channel description.
+a:|:Show on Home Page:|:Show on Home Page
+a:|:Show in Block:|:Show in Block
+a:|:Allow Block View:|:Allow Block View
+a:|:The allow view option allows you to choose when the block will show up on the page. Choose which modules need to be active in order for the block to appear.:|:The allow view option allows you to choose when the block will show up on the page. Choose which modules need to be active in order for the block to appear.
+a:|:View with Pagemaster page:|:View with Pagemaster page
+a:|:The view  with Pagemaster pages option allows you to choose which pages the block will show up on. Choose which pages need to be active in order for the block to appear.:|:The view  with Pagemaster pages option allows you to choose which pages the block will show up on. Choose which pages need to be active in order for the block to appear.
+a:|:Checking this option will make this feed appear on the home page in the main area.:|:Checking this option will make this feed appear on the home page in the main area.
+a:|:Checking this option will make this item appear in the block.:|:Checking this option will make this item appear in the block.
+a:|:RSS Feed deleted.:|:RSS Feed deleted.
+a:|:RSS Feed NOT deleted.:|:RSS Feed NOT deleted.
+a:|:Delete this RSS Feed?:|:Delete this RSS Feed?
+a:|:RSS Feeds:|:RSS Feeds
+a:|:RSS News Feeds:|:RSS News Feeds
+a:|:Please enter a RSS Feed title.:|:Please enter a RSS Feed title.
+a:|:Expiration:|:Expiration
+a:|:Select the number of minutes for the RSS Feed to expire from the cache.:|:Select the number of minutes for the RSS Feed to expire from the cache.
+a:|:Target Window:|:Target Window
+a:|:Choose the target window for links to open in when an article or title is clicked.:|:Choose the target window for links to open in when an article or title is clicked.
+a:|:RSS Feed saved.:|:RSS Feed saved.
+a:|:RSS Feed updated.:|:RSS Feed updated.
+a:|:Sorry, that is not a working RSS feed.:|:Sorry, that is not a working RSS feed.
+a:|:More Feeds:|:More Feeds
+a:|:Category:|:Category
+a:|:Return to Feeds List:|:Return to Feeds List
+a:|:Select Modules Allowed:|:Select Modules Allowed
+a:|:Add Menu Link:|:Add Menu Link
+a:|:All RSS Feeds tables successfully written.:|:All RSS Feeds tables successfully written.
+a:|:RSS Feeds successfully registered with Help system.:|:RSS Feeds successfully registered with Help system.
+a:|:News Feeds:|:News Feeds
+a:|:RSS Feeds NOT registered with Search system.:|:RSS Feeds NOT registered with Search system.
+a:|:RSS Feeds successfully registered with Search system.:|:RSS Feeds successfully registered with Search system.
+a:|:Unable to write to the database.:|:Unable to write to the database.
+a:|:All RSS Feeds tables successfully removed.:|:All RSS Feeds tables successfully removed.
+a:|:RSS Feeds removed from Help system.:|:RSS Feeds removed from Help system.
+a:|:RSS Feeds removed from Search system.:|:RSS Feeds removed from Search system.
+a:|:RSS Feeds removed from Layout system.:|:RSS Feeds removed from Layout system.
+a:|:Unable to access the database.:|:Unable to access the database.
+a:|:Manage Local Feeds:|:Manage Local Feeds
+a:|:Click this link to create backed RSS feed files to share your site information with other websites and news aggregators.:|:Click this link to create backed RSS feed files to share your site information with other websites and news aggregators.
+a:|:Add Local RSS Feed:|:Add Local RSS Feed
+a:|:Edit Backend Feed:|:Edit Backend Feed
+a:|:Add Backend Feed:|:Add Backend Feed
+a:|:News Feed ImageNews Feed Image
+a:|:Total Items in Feed:|:Total Items in Feed
+a:|:Here you can select the number of items you would like the feed to display. This will create a feed based on the most recent x number of items.:|:Here you can select the number of items you would like the feed to display. This will create a feed based on the most recent x number of items.
+a:|:News Feed Source:|:News Feed Source
+a:|:Here you can select the data source of the feed you would like to create.:|:Here you can select the data source of the feed you would like to create.
+a:|:News Feed Image:|:News Feed Image
+a:|:Select the image you would like to use to create an icon that identifies your RSS feed.:|:Select the image you would like to use to create an icon that identifies your RSS feed.
+a:|:Type:|:Type
+a:|:Items:|:Items

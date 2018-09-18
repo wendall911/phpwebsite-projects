@@ -1,0 +1,24 @@
+phpwsContacts - phpWebSite Contacts Management
+http://phpwscontacts.sourceforge.net
+Don Seiler <don@NOSPAM.seiler.us>
+
+BUGS
+====
+If you have any bugs to report, file them at:
+http://sourceforge.net/tracker/?func=add&group_id=83662&atid=570207
+
+Please be sure to search any existing bugs to avoid duplicates.
+
+INSTALLATION
+============
+See docs/INSTALL for installation instructions, as well as instructions
+on seeking support for phpwsContacts.
+
+LICENSE
+=======
+The software included in this directory is licensed under the GPL v2.
+See docs/COPYING for the text of the license.
+
+VERSION
+=======
+Version is listed as $version in conf/boost.php.

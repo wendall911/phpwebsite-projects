@@ -1,0 +1,162 @@
+# ChangeLog for phpwsListings
+# $Id: ChangeLog,v 1.54 2003/12/18 20:17:23 wendall911 Exp $
+
+*phpwslistings-0.3.1(18 Dec 2003)
+
+    18 Dec 2003; Wendall Cada <wendallc@83864.com> :
+    Modified to work with phpws 0.9.3-2
+
+*phpwslistings-0.3.0 (11 Jun 2003)
+
+    11 Jun 2003; Wendall Cada <wendallc@83864.com> :
+    Added UPGRADE.txt
+
+    08 Jun 2003; Wendall Cada <wendallc@83864.com> :
+    BUG # 749239: Fixed problem where deleting a user caused fatal error
+
+    07 Jun 2003; Wendall Cada <wendallc@83864.com> :
+    BUG # 750597: Fixed paginate for View Agents
+    BUG # 749955: Fixed paginate for Manage Agents
+    Added German Language Translation File
+    
+    03 Jun 2003; Wendall Cada <wendallc@83864.com> :
+    BUG # 747220: Fixed paginate errors after first page
+    BUG # 748617: Fixed problem with paginate not working with featured listings
+    BUG # 744720: Fixed error when required item not completed
+    BUG # 748666: Parameter for sorting is now passed to paginated pages
+    
+    29 May 2003; Wendall Cada <wendallc@83864.com> :
+    Optimized listListings() function in ListingManager.php
+
+    25 May 2003; Wendall Cada <wendallc@83864.com> :
+    BUG # 742865: Fixed Agent only form elements showing on Browse to everyone.
+    BUG # 743421: Fixed View Agents with same last name problem.
+
+*phpwslistings-0.3.0-rc3 (23 May 2003)
+
+*phpwslistings-0.3.0-rc2 (23 May 2003)
+
+    23 May 2003; Wendall Cada <wendallc@83864.com> :
+    RFE # 707177: Block listings are now editable through block.tpl
+
+*phpwslistings-0.3.0-rc1 (19 May 2003)
+
+    19 May 2003; Wendall Cada <wendallc@83864.com> :
+    RFE # 707177: Main image caption is now editable in the view and printable
+    layouts.
+
+    18 May 2003; Wendall Cada <wendallc@83864.com> :
+    BUG # 737398: Now checks to see if $this->_lastmodified is empty.
+    Added CUSTOM_LAYOUT_README.txt for RFE #707177
+    RFE # 707177: Some more small changes.
+    Fixed small problem with updating from 0.2.0 to 0.3.0
+
+    15 May 2003; Wendall Cada <wendallc@83864.com> :
+    Made small fixes for RFE #707177
+    Changed case of image directory path in install.php
+
+    14 May 2003; Wendall Cada <wendallc@83864.com> :
+    RFE #707177: Made all changes to breakout FORMELEMENTS and added custom
+    layout templates for printable, view, small and search.
+    
+    13 May 2003; Wendall Cada <wendallc@83864.com> :
+    BUG # 737413: Search by Class broken
+    RFE # 736311: Created view_printable.tpl and updated Listing.php to use it
+
+    12 May 2003; Don Seiler <don@seiler.us> :
+    RFE # 703136: Make menu buttons href links when possible
+    RFE # 736258: Classes have "default" field now
+
+    11 May 2003; Wendall Cada <wendallc@83864.com> :
+    Changed ListingElement.php form element ELEMENT_field_elements length
+    to 5000. This accommodates larger dropdown lists.
+
+    09 May 2003; Don Seiler <don@seiler.us> :
+    RFE # 704327: Listings have expiration dates.
+    RFE # 734062: Store listelements data in serialized array in
+                  mod_listings table and drop mod_listings_listelements
+                  table.
+
+    06 May 2003; Don Seiler <don@seiler.us> :
+    RFE # 694576: showAgents displays agent mini-view with thumbnails
+    RFE # 689992: Showing agents from an agency on agency detail page
+    RFE # 711127: Added link to agency on listing detail page
+    RFE # 713689: Using PHPWS Help system, added help markers for
+                  listing elements.
+
+*phpwslistings-0.2.0 (30 Apr 2003)
+
+    30 Apr 2003; Don Seiler <don@seiler.us> :
+    Changed update script to NULL and unset Manager, so session
+    arrays are automatically updated and reloaded.  Ready for 0.2.0.
+
+*phpwslistings-0.2.0-rc2 (23 Apr 2003)
+
+    23 Apr 2003; Don Seiler <don@seiler.us> :
+    Cleaned up the upgrade process.  Still not _quite_ satisfied.
+
+    22 Apr 2003; Don Seiler <don@seiler.us> :
+    BUG # 719859: Select Multiple and Checkbox search problems
+    BUG # 723909: Listing Elements displaying twice in view details
+
+    31 Mar 2003; Don Seiler <don@seiler.us> :
+    RFE # 710226: Change mortgage calculator window style and size
+
+*phpwslistings-0.2.0-rc1 (26 Mar 2003)
+
+    25 Mar 2003; Don Seiler <don@seiler.us> :
+    Bug # 708600: Error in updating listing image fixed
+    RFE # 691172: Only use the main image in random listing block
+    RFE # 693182: The mighty Listing Classes abstraction
+    RFE # 708082: Mortgage calculator is class-specific.
+
+    24 Mar 2003; Don Seiler <don@seiler.us> :
+    RFE # 692346: Setting to turn off all blocks.
+
+    23 Mar 2003; Don Seiler <don@seiler.us> :
+    Bug # 706107: Fixed logic for chkgd2() for php < 4.3.0
+
+    22 Mar 2003; Don Seiler <don@seiler.us> :
+    Bug # 708080: saveFormElements should follow class restrictions
+
+    20 Mar 2003; Don Seiler <don@seiler.us> :
+    RFE # 705302: Admin can set title for random and feature listing blocks.
+    RFE # 702681: Price field is optional.
+    RFE # 694466: Reference to agency in agent list is link to agency view page.
+
+*phpwslistings-0.1.0 (03 Mar 2003)
+
+    01 Mar 2003; Don Seiler <don@seiler.us> :
+    Deleting phpwslistings uservars when module is uninstalled.
+    Handling display issues if agency is deleted that agent is tied to.
+    Reloading formelements array after deleting form element.
+    Deleting listelement items after formelement is deleted.
+
+*phpwslistings-0.1.0-rc2 (01 Mar 2003)
+
+    01 Mar 2003; Don Seiler <don@seiler.us> :
+    Fixed issues with null check methods when ListingBaseImage
+        return from save().
+    Fixed some formatting quirks with the form elements.
+    Removed chkgd2() function from ListingImage
+
+    28 Feb 2003; Don Seiler <don@seiler.us> :
+    Fixed security concerns regarding inactive agent abuse
+    Fixed bug with gif conversions and no gif2png
+
+    27 Feb 2003; Don Seiler <don@seiler.us> :
+    Bug # 694412: ListingBaseImage calling edit() function
+    RFE # 694470: Sort agent list
+    Bug # 694411: ListingBaseImage returning null when no image
+
+    26 Feb 2003; Don Seiler <don@seiler.us> :
+    Adding docs/ChangeLog
+    RFE #693652: Empty elements hidden on display
+    Added img/phpwslistings.png module icon from John Konecny
+    Added docs/INSTALL document
+    Hard-coding agent id if agent isn't admin
+
+*phpwslistings-0.1.0-rc1 (25 Feb 2003)
+
+    25 Feb 2003; Don Seiler <don@seiler.us> : 
+    Finished up number of bugs and features.  Cutting RC1.

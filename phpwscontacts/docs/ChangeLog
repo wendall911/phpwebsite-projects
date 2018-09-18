@@ -1,0 +1,174 @@
+# ChangeLog for phpwsContacts
+# $Id: ChangeLog,v 1.78 2005/01/04 06:38:03 rizzo Exp $
+
+*phpwscontacts-0.9.4 (04 Jan 2005)
+
+	* Forgot to bump version in conf/boost.php.
+
+*phpwscontacts-0.9.3 (04 Jan 2005)
+
+	Bug Fixes:
+	* BUG #1078943 Confusion with core parseOutput() bbcode altering email and
+	  URLs.
+	* Forgot version_compare() switch in uninstall.php.  Thanks to Chris
+	  Rehberg for emailing me the notice, despite being a naughty boy and not
+	  registering an sf.net ID.  I kid because I love.
+
+*phpwscontacts-0.9.2 (06 Oct 2004)
+
+	Bug Fixes:
+	* If no middlename or maidenname are on $_REQUEST object, set them to
+	  empty string.
+	* VCard classes have been included in core PEAR lib for some time now.
+
+*phpwscontacts-0.9.1 (11 Aug 2004)
+
+	Bug Fixes:
+	* Putting maiden name field in browse and search listing views.
+
+*phpwscontacts-0.9.0 (10 Aug 2004)
+
+	Bug Fixes:
+	* BUG #995713 Fixed thumbnail handling.  Man was I sloppy.
+	* Fixing xhtml well-formed bugs with HR tag.  Thanks to Mike Noyes.
+
+	New Features:
+	* RFE #1005621 Added maiden name field
+	* RFE #1005622 Added date of death field and printing "Deceased" when needed
+	* RFE #915036 Added gender field
+	* RFE #867300 Custom fields hidden when label not set
+
+
+*phpwscontacts-0.8.3 (21 Apr 2004)
+
+	Bug Fixes:
+	* Making more fields available in browse mode for those confident enough to
+	  customize the browse templates.
+	* Fixed security hole that allowed export CSV to work regardless of
+	  allow_anon_view.  Thanks to Paul the lostboyscout.
+	* Changed headers to be GPL-compliant
+
+*phpwscontacts-0.8.2 (29 Mar 2004)
+
+	Bug Fixes:
+	* BUG #925646 Incorrectly wiping out ALL "mine" checks except for current
+	  saved one.
+	* BUG #925025 Making sure username exists for session user before doing any
+	  [Edit] linkage.
+
+*phpwscontacts-0.8.1 (29 Dec 2003)
+
+	Bug Fixes:
+	* Fixed bug in browse row template.  Thanks Sean Hogan and danabu.
+
+*phpwscontacts-0.8.0 (18 Dec 2003)
+
+	New Features:
+	* phpwsContacts will now only work on phpWebSite 0.9.3-2 or higher.
+	* RFE #857047 Paginate browse screen
+	* RFE #857153 Added custom fields
+
+*phpwscontacts-0.7.1 (03 Dec 2003)
+
+	Bug Fixes:
+	* Removed references to image vars that we don't use anymore.
+	* Contact action() appends to content var so error isn't overwritten.
+
+*phpwscontacts-0.7.0 (25 Nov 2003)
+
+	Bug Fixes:
+	* BUG #835914 Wrong contact displayed
+	* BUG #849085 Delete fatcat entry when contacts deleted
+	* Manually including Help class in install/update/uninstall scripts
+
+	New Features:
+	* Updates for new search mechanism in 0.9.3-2.
+
+*phpwscontacts-0.6.2 (04 Nov 2003)
+
+	Bug Fixes:
+	* Fixed missing comma in CSV output
+	* Fixed category listing in CSV output
+
+*phpwscontacts-0.6.1 (03 Nov 2003)
+
+	Bug Fixes:
+	* BUG #834804 Stripping line feeds and adding comments and categories to CSV
+	  output.  Also added exit() calls to vcard and csv export functions to
+	  block extra output.
+
+*phpwscontacts-0.6.0 (30 Oct 2003)
+
+	New Features:
+	* Changed vcard class used for export to a PEAR-approved class.
+	* RFE #765617 vCard import!
+	* Changes for speed improvements (now requirements for 0.9.3-2).
+	* Adding search block title.  OOPS!
+	* RFE #827167 Exporting entire visible list as CSV file
+
+*phpwscontacts-0.5.2 (22 Oct 2003)
+
+	Bug Fixes:
+	* BUG #827161 mktime() is now unreliable thanks to glibc 2.3+.  Changing
+	  birthday/anniverary to use YYYYMMDDHHMISS format with varchar fields
+	  and PEAR's Date object.
+
+*phpwscontacts-0.5.1 (17 Sep 2003)
+
+	Bug Fixes:
+	* Fix for potential session overwrites when BACK button is used.
+
+*phpwscontacts-0.5.0 (15 Sep 2003)
+
+	New Features:
+	* RFE #770238 Setting fine-grained visibility on the contact level.
+	* Added php tag to top of vCard class in case short_open_tag is disabled.
+
+*phpwscontacts-0.4.0 (29 Aug 2003)
+
+	New Features:
+	* RFE #793935 Added setting to make contacts private.
+	* RFE #793934 Allow sorting of list and browse by first name
+
+*phpwscontacts-0.3.0 (22 Aug 2003)
+
+	Bug Fixes:
+	* BUG #792145 Sorting the list contacts screen and adding sort buttons.
+
+	New Features:
+	* Changing year field in birthday/anniversary to be text box.  This
+	  requires phpWebSite 0.9.3-1 with my new EZform::dateForm() function.
+
+*phpwscontacts-0.2.2 (18 Aug 2003)
+
+	Bug Fixes:
+	* Fixed sort order in browse.  Sorts by lastname, firstname, middlename.
+	  Thanks to Craig Musgraves for emailing the clue-stick my way.
+	* Took out conf/phpwscontacts.php since it was never used.
+
+*phpwscontacts-0.2.1 (09 Jul 2003)
+
+	Bug Fixes:
+	* Hiding "Contact Owner" row when not set
+	* Adding core version check in install script to prevent install on old
+	  core.
+
+*phpwscontacts-0.2.0 (08 Jul 2003)
+
+	New Features:
+	* RFE #765616 vCard Export
+
+*phpwscontacts-0.1.2 (08 Jul 2003)
+
+	Bug Fixes:
+	* Had problems with FatCat, fixed them
+
+*phpwscontacts-0.1.1 (07 Jul 2003)
+
+	Bug Fixes:
+	* BUG #767265 Browse screen moving right blocks
+
+	New Features:
+	* RFE #767273 Adding entry in Personal Settings control panel
+
+*phpwscontacts-0.1.0 (07 Jul 2003)

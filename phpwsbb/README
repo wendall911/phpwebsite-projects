@@ -1,0 +1,32 @@
+phpwsBB - phpWebSite Bulletin Board
+http://phpwsbb.sourceforge.net
+
+phpwsBB is copyright (C) 2004 by those listed in the docs/AUTHORS and 
+docs/COPYRIGHT
+
+BUGS
+====
+If you have any bugs to report, file them at:
+http://sourceforge.net/tracker/?func=add&group_id=81260&atid=562402
+
+Please be sure to search any existing bugs to avoid duplicates.
+
+CHANGELOG
+=========
+See docs/ChangeLog for history of changes.
+
+INSTALLATION
+============
+See docs/INSTALL for installation instructions, as well as instructions on
+seeking support for phpwsBB.  If you are installing this on phpwebsite <
+0.10.0, you'll need to install the ImgLib classes, see the README in the
+imglib dir.
+
+LICENSE
+=======
+The software included in this directory is licensed under the GPL v2.
+See docs/COPYING for the full text of the license.
+
+VERSION
+=======
+Version is listed as $version in conf/boost.php.

@@ -1,0 +1,4 @@
+{START_FORM}
+{MESSAGE}<br /><br />
+{OPTION_NO}&#160;&#160;{OPTION_YES}
+{END_FORM}

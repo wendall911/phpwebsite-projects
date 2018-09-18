@@ -1,0 +1,18 @@
+edit_messages::Add/Edit Messages
+delete_messages::Delete Messages
+fork_messages::Fork Messages Into New Threads
+lock_threads::Lock Threads
+delete_threads::Delete Threads
+sticky_threads::Mark Threads Sticky
+move_threads::Move Threads in Forums
+edit_settings::Edit Settings
+view_ips::View IP Addresses
+ban::Ban Users
+hide_threads::Hide/Show Threads
+hide_messages::Hide/Show Messages
+edit_forums::Add/Edit Forums
+delete_forums::Delete Forums
+hide_forums::Hide/Show Forums
+edit_avatars::Edit Avatar Images
+edit_avatar_galleries::Edit the Avatar Gallery
+edit_users::Edit other users' settings

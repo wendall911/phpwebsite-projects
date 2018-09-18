@@ -1,0 +1,27 @@
+$Id: CREDITS,v 1.1 2005/01/08 00:19:12 wendall911 Exp $
+phpwsRSSFeeds - http://phpwebsite-comm.sourceforge.net
+
+Credits and Acknowledgements
+
+phpwsRSSFeeds is copyright (C) 2004 by those listed in the Developers and
+Contributors sections.
+
+Developers:
+~~~~~~~~~~~
+- Wendall Cada <wendall911 [at] users.sourceforge.net>
+- Darren Greene <dg49379@NOSPAM.users.sourceforge.net>
+
+Contributors:
+~~~~~~~~~~~~~
+- Steven Levin <steven@NOSPAM.tux.appstate.edu>
+- Mike Noyes <mhnoyes [at] users.sourceforge.net>
+- David M Walker <datamgmt [at] users.sourceforge.net>
+
+Testers:
+~~~~~~~~
+- Shaun Murray <singletrack [at] users.sourceforge.net>
+- Paul Fosselman <pfos [at] users.sourceforge.net>
+
+Acknowledgements for Inspiration:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- The gang in #phpwebsite on irc.freenode.net

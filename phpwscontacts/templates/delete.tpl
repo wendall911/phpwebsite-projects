@@ -1,0 +1,4 @@
+{START_FORM}
+{MESSAGE}<br /><br />
+{CONTACT_NO}&#160;&#160;{CONTACT_YES}
+{END_FORM}

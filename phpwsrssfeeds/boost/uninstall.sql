@@ -1,0 +1,4 @@
+DROP TABLE mod_phpwsrssfeeds_feeds;
+DROP TABLE mod_phpwsrssfeeds_backend;
+DROP TABLE mod_phpwsrssfeeds_multi;
+DROP TABLE mod_phpwsrssfeeds_aggregate;

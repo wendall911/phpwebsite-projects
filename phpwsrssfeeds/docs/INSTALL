@@ -1,0 +1,18 @@
+IMPORTANT
+phpwsRSSFeeds has a dependency on an additional PEAR library. This library
+is included in > phpWebSite 0.9.3-2. If you have a previous version of 
+phpWebSite you will need the appropriate pear library below.
+
+The library file can be downloaded from here:
+http://pear.php.net/get/XML_RSS-0.9.2.tgz
+
+The file needs to be placed in your phpWebSite home directory under /lib/pear/XML or
+in your main pear directory under /XML
+
+This module is designed to be self-installing.  Simply drop the phpwsrssfeeds
+directory into the mod/ directory of your site.  Please make sure the directory
+is named phpwsrssfeeds or the install will fail. Log in to your site as Deity, 
+select Modules, and select the Boost Module Upgrader.  The RSS Feeds module will
+be listed as "RSS News Feeds." Click Install. After successful installation, the
+module will appear along with other installed modules in the Content column of
+the Modules display.

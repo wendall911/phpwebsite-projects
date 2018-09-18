@@ -1,0 +1,77 @@
+.float_left { float: left; width: 50%;}
+.clear { clear: both }
+.float_right { float: right; width: 30%;}
+.rss_block { margin-top: 1em; }
+.form {
+    width: 97%;
+    margin: 8px 8px 8px 8px;
+    border: 2px solid #FFFFFF;
+}
+.col1 {
+    text-align: left;
+    width: 37%;
+    height: 31px;
+    float: left;
+    padding: 5px 0px 0px 8px;
+    border-bottom: 1px dashed #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+}
+.col1comment {
+    width: 37%;
+    text-align: left;
+    height: 210px;
+    float: left;
+    display: block;
+    padding: 5px 0px 2px 8px;
+    border-bottom: 1px dashed #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+}
+.col2 {
+    width: 60%;
+    height: 31px;
+    display: block;
+    float: left;
+    padding: 5px 0px 2px 4px;
+    border-bottom: 1px dashed #FFFFFF;
+}
+.col2multiple {
+    width: 60%;
+    height: 210px;
+    display: block;
+    float: left;
+    padding: 5px 0px 2px 4px;
+    border-bottom: 1px dashed #FFFFFF;
+}
+div.row {
+    clear: both;
+    width: 100%;
+}
+
+div.fancyBorder {
+    border-bottom: 1px dashed #FFFFFF;
+}
+
+.submit {
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    clear: both;
+} 
+div.menu { 
+    clear: both; 
+    width: 100%;
+}
+.menu_item {
+    height: 25px;
+    display: block;
+    float: left;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-top: 1px solid #C0C0C0;
+    border-left: 1px solid #C0C0C0;
+    font-weight: bold;
+    padding: 8px 12px 0px 12px;
+    margin-right: 2px;
+}

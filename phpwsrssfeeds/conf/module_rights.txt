@@ -1,0 +1,21 @@
+add::Add External News Feed
+edit::Edit External News Feed
+delete::Delete External News Feed
+menu_link::Add Menu Link to External Feeds List
+link::Add Menu Link to External Feed
+show_hide::Hide or Show External Feeds
+addbackend::Add Backend Feed
+editbackend::Edit Backend Feed
+deletebackend::Delete Backend Feed
+multi_add::Add Multi-View Feed
+multi_delete::Delete Multi-View Feed
+multi_edit::Edit Multi-View Feed
+multi_show_hide::Hide or Show Multi-View Feeds
+multi_link::Add Menu Link to Multi-View Feed
+multi_menu_link::Add Menu Link to Multi-View Feeds List
+aggr_add::Add Aggregated Feed
+aggr_delete::Delete Aggregated Feed
+aggr_edit::Edit Aggregated Feed
+aggr_show_hide::Hide or Show Aggregated Feeds
+aggr_link::Add Menu Link to Aggregated Feed
+aggr_menu_link::Add Menu Link to Aggregated Feeds List

@@ -1,0 +1,199 @@
+# ChangeLog for phpwsRSSFeeds
+# $Id: CHANGELOG,v 1.52 2005/03/31 20:50:06 wendall911 Exp $
+
+*phpwsRSSFeeds-0.4.2 (31 Mar 2005)
+    Bug Fixes:
+        * BUG #1163565 Feed display too spaced out
+        * BUG #1163501 Branch sites don't find CSS file
+        * Fixed table name in RSSManager.php
+        * Changed installer to not allow continuing if file permissions wrong
+        
+    New Features:
+        * Allow use of file:// format for local feed files. Courtesy Tony Miller
+
+*phpwsRSSFeeds-0.4.1 (14 Mar 2005)
+    Bug Fixes:
+        * BUG #1114908 Branch Site(s) Not Updating rssfeeds
+        * BUG #1145639 RSS feeds show up in strange ways or not at all.
+        * BUG #1105270 setOptgroups only in 0.10.0
+        
+    New Features:
+        * Changed block view for Multi-View to full view with modules and pages.
+
+*phpwsRSSFeeds-0.4.0 (09 Jan 2005)
+
+    Bug Fixes:
+        * Fixed bug where phpws would fail if there was a problem with a missing
+          or corrupt table.
+        * BUG #1087898 newsfeed error with special characters in IE6
+        * Fixed typo in update040.sql
+        * Fixed bug in Multi_RSS.php where layout entries weren't removed 
+          properly when an item was deleted.
+        * Fixed problem with duplicate dates on aggregation feed
+        * Fixed sorting in asc and desc order for dates
+        * Fixed version_compare bug in index.php
+        * Changed structure of content array in database for more flexibility
+        * Added missing translations for {yes,no} lables on rss edit form
+
+    New Features:
+        * Added type and asc or desc order to aggregation
+        * Added option to specify empty feed message
+        * Added RSS_Aggregate class for feed aggregation
+        * Moved xml in backend.php to templates.
+
+*phpwsRSSFeeds-0.3.7 (28 Nov 2004)
+
+    Bug Fixes:
+        * Fixed bug in backend feeds if feed is unavailable.
+        * Fixed php5 bug in RSS.php where $_content was declared twice
+        * Moved feed sorting from multi-view to individual feeds.
+        * Fixed a warning received when saving a multi-view and no feeds
+          had been selected.
+        * Fixed some javascript stuff to be XHTML+XML compliant
+        * Changed days_ahead field to VARCHAR(10) since default text of '0' 
+          bombs when used in a text field.
+        * Fixed update bug of not updating multiple feeds if the first one fails
+        * Fixed bug with backend calendar feeds when the ids are not consecutive
+
+    New Features:
+        * Beautified formatting in class files.
+        * Added change order button in Multi-View edit.
+        * Fixed XHTML compliant issue on sorting screen.
+        * Added multiview ability to organize the feeds by date
+        * Added ability to custom sort feeds in a multiview
+
+*phpwsRSSFeeds-0.3.3 (02 Sep 2004)
+
+    Bug Fixes:
+        * Removed all markup from source to templates
+        * Added @ to suppress warnings on $_REQUEST items in RSS.php.
+        * Removed hard coded html from Multi_RSS.php
+    
+    New Features:
+        * Implemented css changes submitted by Mike Noyes 
+        * Replaced core/Manager.php usage with core/RSSObjManager.php
+        * Eliminated use of the session object.
+        * Moved to more universal database format by altering MYSQL specific
+          items
+        * Finished dynamic placement code for Multi-View
+        * Tested with Internet Exploder and Opera for consistency.
+        * More manager changes added RSS_common class for common functions
+        * Created a help function to be able to change help icon for rss feeds
+        * Added conf/help_config and img/rss_help.png
+        * Eliminated use of managerAction()
+        * Created CSS Menu for top menu. Needs cross browser testing still
+        * Converted all edit forms to css
+        * More manager changes to make more universal behavior and error
+          reporting
+        * Changed save and delete functions from $_REQUEST to $_POST
+        * Added RSS_Fatcat class to account for multiple item classes
+        * More error checking and debuging added.
+        * Added $title parameter to RSS::_continueContent()
+        * Added support to accept https feeds for addition
+        * Added multiple item functionality to item list for view and delete.
+        * Added more error routines to action requests in RSSManager.php
+        * Added show/hide and link code for Multi_RSS RSSManager actions
+        * Added support for phpws debug messages
+        * Added support for multiple Multi-View Feeds Multi_RSS extends
+          PHPWS_Item
+        * Added file update030.sql will be used temporarily to work out kinks, 
+          will be used for next release for update.
+        * Removed all tables from Multi-View templates - css layout (Shawn Murray)
+        * Changed Multi-View so expanded feed doesn't display in unexpanded view
+        * Multi-View feeds view consistently with feed settings
+        * Changed Settings link in Multi-View to More Feeds to match behavior of 
+          link
+        * Moved some hard coded <a> tags into templates for Multi-View to allow 
+          for styles to be applied by site designers.
+        * Changed default multi_view settings to 0.
+        * RFE #955245: Added backend code for Article Manager (David M Walker) 
+        * Added backend code for Link Manager (David M Walker)
+        * Added use of PHPWS_Text::moduleLink() to RSSManager.php and backend.php
+
+*phpwsRSSFeeds-0.2.6 (31 May 2004)
+
+    New Features:
+        * Added multiple feed view
+
+*phpwsRSSFeeds-0.2.5 (11 May 2004)
+
+    Bug Fixes:
+        * Updated version number to be current.
+        * Fixed minor warning
+
+*phpwsRSSFeeds-0.2.4 (11 May 2004)
+
+    Bug Fixes:
+        * Updated version number to be current.
+        * Fixed minor well formed issue.
+        * Minor speed improvements.
+
+*phpwsRSSFeeds-0.2.3 (23 Mar 2004)
+    Bug Fixes:
+        * Updated version number to be current.
+        * Made changes for upcoming 0.9.3-3 release.
+
+*phpwsRSSFeeds-0.2.2 (11 Mar 2004)
+
+    Bug Fixes:
+        * Fixed Bug #886719 Hidden feeds still appear in blocks
+        * Changed message for full view when feed is hidden from view.
+
+*phpwsRSSFeeds-0.2.1 (15 Dec 2003)
+
+    Bug Fixes:
+        * Added error handling if http:// not included in feed name.
+        * Made additional changes to rdf output handling of special characters.
+          This should be outputting correctly now.
+        * Created update() in RSS.php to localize cache updates
+        * Changed layout of edit templates to be more easily understood
+        * Fixed installer and uninstaller again, broke with the last "fixes"
+        * Changed PHPWS_HOME_DIR to $GLOBALS['core']->home_dir for branch support
+    
+*phpwsRSSFeeds-0.2.0 (09 Dec 2003)
+
+    Bug Fixes:
+        * BUG #856663: Branch installation looks for hub pagemaster pages
+        * BUG #856652 and #856654: ascii character conversion problems
+        * BUG #856643: No error if can't create backendn.php
+        * Fixed a problem with cache update if a \ character was present in the
+          data
+        * Changed More Feeds button to a link
+        * If backend feed doesn't have image, don't include information in feed
+
+*phpwsRSSFeeds-0.1.1 (08 Dec 2003)
+
+    Bug Fixes:
+        * Calendar backend now respects max number of items in feed
+        * Fixed small time display bug
+        * Updated for more 0.9.3-2 core changes
+        * Updated help system
+        * ALT tag in image element instead of <a> element
+        * Feed expiration now updates channel description
+        * Fixed Calendar backend to output properly
+        * Security fixes.
+        * added module_rights.txt for specific permissions
+        * Updated installers to properly update
+        * Fixed block to display 0.9.x, 1.0 and 2.0 RSS feeds correctly.
+        * Updated feed display to accept 0.9.x, 1.0 and 2.0 RSS feeds
+        
+    New Features:
+        * Added edit field to all feed templates
+        * Changed RDF output to Dublin Core 1.1 from 1.0 for date
+        * Finished Permissions
+        * Added code to check if feed contains entire blog contents
+        * Changed method for checking for empty array
+        * Added backend feed creation for Announcements and Calendar
+        * New backend.php functionality
+
+*phpwsRSSFeeds-0.1.0 (06 Nov 2003)
+    Bug Fixes:
+        * Updated for 0.9.3-2 core changes
+
+*phpwsRSSFeeds-0.1.0 (17 Oct 2003)
+    Bug Fixes:
+        * Updated language translation.
+        * Finishing touches for 0.1.0 release (finally).
+
+*phpwsRSSFeeds-0.1.0-beta1 (08 Jul 2003)
+        * Set up all main files.

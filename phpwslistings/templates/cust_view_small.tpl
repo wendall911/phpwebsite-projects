@@ -1,0 +1,37 @@
+<!-- BEGIN LISTING -->
+<table border="0">
+<tr valign="top">
+<!-- BEGIN MAINIMAGE -->
+<td>{MAINIMAGE}</td>
+<!-- END MAINIMAGE -->
+<!-- BEGIN BODY -->
+<td>
+<!-- BEGIN TITLE -->
+<b>{TITLE}</b><br />
+<!-- END TITLE -->
+<!-- BEGIN PRICE -->
+{PRICE_LABEL}: {PRICE_SIGN} {PRICE}<br />
+<!-- END PRICE -->
+<!-- BEGIN FORMELEMENT0_LABEL -->
+{FORMELEMENT0_LABEL} :
+<!-- END FORMELEMENT0_LABEL -->
+<!-- BEGIN FORMELEMENT0 -->
+{FORMELEMENT0}<br />
+<!-- END FORMELEMENT0 -->
+<!-- BEGIN FORMELEMENT1_LABEL -->
+{FORMELEMENT1_LABEL} :
+<!-- END FORMELEMENT1_LABEL -->
+<!-- BEGIN FORMELEMENT1 -->
+{FORMELEMENT1}<br />
+<!-- END FORMELEMENT1 -->
+<!-- BEGIN READ_MORE -->
+{READ_MORE}<br />
+<!-- END READ_MORE -->
+<!-- BEGIN POSTED_DATA -->
+{AGENT_LABEL}: {AGENTLINK}<br />
+<!-- END POSTED_DATA -->
+</td>
+<!-- END BODY -->
+</tr>
+</table>
+<!-- END LISTING -->

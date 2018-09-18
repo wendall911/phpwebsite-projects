@@ -1,0 +1,46 @@
+# INSTALL for phpwsListings
+# $Id: INSTALL.txt,v 1.7 2004/12/02 20:51:14 wendall911 Exp $
+
+INSTALL steps for phpwsListings
+
+IMPORTANT: phpwsListings is a module for phpWebSite 0.9.x.  You have to
+install phpWebSite >= 0.9.1 first, phpwsListings will not work with
+earlier versions of phpWebSite.  If you don't have phpWebSite installed,
+first get the latest code here:
+
+http://sourceforge.net/project/showfiles.php?group_id=15539
+
+Then follow the instructions found in the docs/INSTALL.txt in that download.
+
+One this is done then you can start installing phpwsListings:
+
+1. Download the .tar.gz from a sourceforge mirror.
+
+2. Unpack the tarball with:
+    tar -xvzf phpwslistings-*.tar.gz
+
+3. Move the directory to /your/install/path/mod/
+
+    Example: If you are upgrading to phpwsListings 0.3.2 and your
+    phpWebSite doc root is /var/www/localhost/htdocs, you would run
+    
+    mv phpwslistings /var/www/localhost/htdocs/mod/phpwslistings
+
+4. BACKUP YOUR DATABASE.  If you use mysql, mysqldump is recommended.
+
+5. Go to your phpWS website and install/upgrade phpwsListings from Boost.
+
+You are golden.
+
+6. If you are installing a new install of phpwsListings 0.3.2 you must:
+    
+    a. Go to the Manage Agents screen and activate a user (probably
+       yourself) as an active agent.
+
+    b. Create at least one listing class via the Create Listing Class
+       screen.
+
+If you are having trouble with these procedures please file a Support
+Request at our sourceforge.net project site:
+
+https://sourceforge.net/tracker/?func=add&group_id=73598&atid=538275

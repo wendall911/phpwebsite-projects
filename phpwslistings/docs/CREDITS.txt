@@ -1,0 +1,40 @@
+-----------------------------------------------------------------------
+phpwsListings
+Copyright (c) 2003 Don Seiler
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+Developers:
+-----------------------------------------------------------------------
+
+Don Seiler (don@NOSPAM.seiler.us)
+Wendall Cada (wendall@NOSPAM.83864.com)
+Adam Morton (adam@NOSPAM.tux.appstate.edu)
+Mike Windsor (winzor@NOSPAM.centurytel.net)
+
+phpwsListings is a PHPWebSite (>= 0.9.1) module that allows a site admin to
+run a classifieds or listings site for virtually any type of item, from houses
+to cars to books. Admins can set the fields and field types, and all fields
+are searchable.
+
+-----------------------------------------------------------------------
+The phpwsListings team would also like to thank the following projects:
+-----------------------------------------------------------------------
+
+PHPWebSite
+http://phpwebsite.appstate.edu
+
+PHP
+http://www.php.net
+
+MySQL
+http://www.mysql.com
+
+PEAR
+http://pear.php.net
+
+Apache
+http://www.apache.org
+
+SourceForge
+http://sourceforge.net

@@ -1,0 +1,20 @@
+CREATE TABLE mod_phpwsrssfeeds_aggregate (
+    id                  INT NOT NULL DEFAULT '0',
+    owner               VARCHAR(20) DEFAULT '',
+    editor              VARCHAR(20) DEFAULT '',
+    ip                  TEXT,
+    label               TEXT NOT NULL,
+    groups              TEXT,
+    created             INT NOT NULL DEFAULT '0',
+    updated             INT NOT NULL DEFAULT '0',
+    hidden              SMALLINT NOT NULL DEFAULT '0',
+    approved            SMALLINT NOT NULL DEFAULT '1',
+    home                SMALLINT NOT NULL DEFAULT '0',
+    block               SMALLINT NOT NULL DEFAULT '0',
+    allow_view          TEXT,
+    pm_allow            TEXT,
+    show_in_aggregate   TEXT,
+    type                VARCHAR(20) NOT NULL DEFAULT 'Date',
+    asc_desc            VARCHAR(20) NOT NULL DEFAULT 'ASC',
+    PRIMARY KEY (id)
+);

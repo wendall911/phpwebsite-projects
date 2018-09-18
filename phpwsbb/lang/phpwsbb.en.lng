@@ -1,0 +1,162 @@
+en:|:phpwsbb
+a:|:Access to ban IP addresses was denied due to lack of proper permissions.:|:Access to ban IP addresses was denied due to lack of proper permissions.
+a:|:Access to ban usernames was denied due to lack of proper permissions.:|:Access to ban usernames was denied due to lack of proper permissions.
+a:|:Access to delete this forum was denied due to lack of proper permissions.:|:Access to delete this forum was denied due to lack of proper permissions.
+a:|:Access to delete this message was denied due to lack of proper permissions.:|:Access to delete this message was denied due to lack of proper permissions.
+a:|:Access to delete this topic was denied due to lack of proper permissions.:|:Access to delete this topic was denied due to lack of proper permissions.
+a:|:Access to edit settings was denied.:|:Access to edit settings was denied.
+a:|:Access to lock this topic was denied due to lack of proper permissions.:|:Access to lock this topic was denied due to lack of proper permissions.
+a:|:Access to stick this topic was denied due to lack of proper permissions.:|:Access to stick this topic was denied due to lack of proper permissions.
+a:|:Access to update topics was denied due to lack of proper permissions.:|:Access to update topics was denied due to lack of proper permissions.
+a:|:Access was denied due to lack of proper permissions.:|:Access was denied due to lack of proper permissions.
+a:|:Add Forum:|:Add Forum
+a:|:Add/Edit Forum:|:Add/Edit Forum
+a:|:Admin Settings:|:Admin Settings
+a:|:Allow Anonymous Posts:|:Allow Anonymous Posts
+a:|:Allow Anonymous Viewing of Posts:|:Allow Anonymous Viewing of Posts
+a:|:Allow User Monitors:|:Allow User Monitors
+a:|:Anchor (href) tags are not allowed in the message subject.:|:Anchor (href) tags are not allowed in the message subject.
+a:|:Anonymous Posting Denied:|:Anonymous Posting Denied
+a:|:Anonymous Viewing Denied:|:Anonymous Viewing Denied
+a:|:Anonymous posting to this bulletin board has been disabled.  You must log-in to post to this bulletin board.:|:Anonymous posting to this bulletin board has been disabled.  You must log-in to post to this bulletin board.
+a:|:Anonymous viewing of this bulletin board has been disabled.  You must log-in to view this bulletin board.:|:Anonymous viewing of this bulletin board has been disabled.  You must log-in to view this bulletin board.
+a:|:Are you sure you want to clear ALL of your monitors?:|:Are you sure you want to clear ALL of your monitors?
+a:|:Are you sure you want to delete this forum and all its threads and messages?:|:Are you sure you want to delete this forum and all its threads and messages?
+a:|:Are you sure you want to delete this message?:|:Are you sure you want to delete this message?
+a:|:Are you sure you want to delete this topic?:|:Are you sure you want to delete this topic?
+a:|:Author:|:Author
+a:|:Automatically monitor threads you post to?:|:Automatically monitor threads you post to?
+a:|:Back to Forums:|:Back to Forums
+a:|:Back to the topic.:|:Back to the topic.
+a:|:Body:|:Body
+a:|:Bulletin Board:|:Bulletin Board
+a:|:Bulletin Board Admin:|:Bulletin Board Admin
+a:|:Bulletin Board Admin Email:|:Bulletin Board Admin Email
+a:|:Bulletin Board Forums:|:Bulletin Board Forums
+a:|:Bulletin Board Offline:|:Bulletin Board Offline
+a:|:Category:|:Category
+a:|:Clear Monitor Confirmation:|:Clear Monitor Confirmation
+a:|:Complete!:|:Complete!
+a:|:Delete:|:Delete
+a:|:Delete Forum:|:Delete Forum
+a:|:Delete Forum Confirmation:|:Delete Forum Confirmation
+a:|:Delete Message Confirmation:|:Delete Message Confirmation
+a:|:Delete Topic:|:Delete Topic
+a:|:Delete Topic Confirmation:|:Delete Topic Confirmation
+a:|:Description:|:Description
+a:|:Edit:|:Edit
+a:|:Edit Forum:|:Edit Forum
+a:|:Edit Message:|:Edit Message
+a:|:Email Notification Text:|:Email Notification Text
+a:|:Error Saving Settings:|:Error Saving Settings
+a:|:Fork:|:Fork
+a:|:Forum:|:Forum
+a:|:Forum Topics:|:Forum Topics
+a:|:Forums:|:Forums
+a:|:Forums Block Title:|:Forums Block Title
+a:|:GUEST:|:GUEST
+a:|:Guest:|:Guest
+a:|:Guest Email:|:Guest Email
+a:|:Guest Name:|:Guest Name
+a:|:HIDDEN:|:HIDDEN
+a:|:Hide Forum:|:Hide Forum
+a:|:Hide Message:|:Hide Message
+a:|:Hide Topic:|:Hide Topic
+a:|:IP Address:|:IP Address
+a:|:LOCKED:|:LOCKED
+a:|:Last Post:|:Last Post
+a:|:Latest Threads Block Title:|:Latest Threads Block Title
+a:|:Lock Topic:|:Lock Topic
+a:|:Maximum Number of Threads to Show in Latest Threads Block:|:Maximum Number of Threads to Show in Latest Threads Block
+a:|:Message:|:Message
+a:|:Monitor:|:Monitor
+a:|:Monitors:|:Monitors
+a:|:Monitor Posts:|:Monitor Posts
+a:|:Monitor successfully removed.:|:Monitor successfully removed.
+a:|:Monitoring has been disabled by the administrator.:|:Monitoring has been disabled by the administrator.
+a:|:Move to Forum:|:Move to Forum
+a:|:Name:|:Name
+a:|:New Message:|:New Message
+a:|:New Topic:|:New Topic
+a:|:No:|:No
+a:|:No forum was deleted from the database.:|:No forum was deleted from the database.
+a:|:No message was deleted from the database.:|:No message was deleted from the database.
+a:|:No monitors were cleared.:|:No monitors were cleared.
+a:|:No topic was deleted from the database.:|:No topic was deleted from the database.
+a:|:Not recommended:|:Not recommended
+a:|:Post:|:Post
+a:|:Post Reply:|:Post Reply
+a:|:Update Post:|:Update Post
+a:|:Poster:|:Poster
+a:|:Re:|:Re
+a:|:Reason:|:Reason
+a:|:Remove all monitors:|:Remove all monitors
+a:|:Replies:|:Replies
+a:|:Reply to Message:|:Reply to Message
+a:|:Report:|:Report
+a:|:Report Message:|:Report Message
+a:|:STICKY:|:STICKY
+a:|:Save:|:Save
+a:|:Send Report:|:Send Report
+a:|:Settings:|:Settings
+a:|:Settings Saved:|:Settings Saved
+a:|:Show Forum:|:Show Forum
+a:|:Show Forums Block:|:Show Forums Block
+a:|:Show Latest Threads Block:|:Show Latest Threads Block
+a:|:Show Message:|:Show Message
+a:|:Show Topic:|:Show Topic
+a:|:Sorry, the bulletin board is currently down for maintenance.:|:Sorry, the bulletin board is currently down for maintenance.
+a:|:Sort Order:|:Sort Order
+a:|:Stick Topic:|:Stick Topic
+a:|:Stop Monitor:|:Stop Monitor
+a:|:Subject:|:Subject
+a:|:Suspend monitors:|:Suspend monitors
+a:|:Take Bulletin Board Offline:|:Take Bulletin Board Offline
+a:|:The forum [var1] was successfully deleted from the database.:|:The forum [var1] was successfully deleted from the database.
+a:|:The forum could not be saved to the database.:|:The forum could not be saved to the database.
+a:|:The message could not be posted.:|:The message could not be posted.
+a:|:The topic [var1] was successfully deleted from the database.:|:The topic [var1] was successfully deleted from the database.
+a:|:The topic could not be locked.:|:The topic could not be locked.
+a:|:The topic could not be unlocked.:|:The topic could not be unlocked.
+a:|:The topic was successfully locked.:|:The topic was successfully locked.
+a:|:The topic was successfully unlocked.:|:The topic was successfully unlocked.
+a:|:The topic was successfully stuck.:|:The topic was successfully stuck.
+a:|:The topic was successfully unstuck.:|:The topic was successfully unstuck.
+a:|:There is nothing here to see.:|:There is nothing here to see.
+a:|:There was a problem adding the monitor entry.  Please try again or contact the system administrator.:|:There was a problem adding the monitor entry.  Please try again or contact the system administrator.
+a:|:There was a problem removing the monitor entry.  Please try again or contact the system administrator.:|:There was a problem removing the monitor entry.  Please try again or contact the system administrator.
+a:|:There was an error saving the settings.:|:There was an error saving the settings.
+a:|:This thread has been locked.:|:This thread has been locked.
+a:|:This topic has no messages.:|:This topic has no messages.
+a:|:This topic is already locked.:|:This topic is already locked.
+a:|:This topic is already not sticky.:|:This topic is already not sticky.
+a:|:This topic is already sticky.:|:This topic is already sticky.
+a:|:This topic is already unlocked.:|:This topic is already unlocked.
+a:|:Topic:|:Topic
+a:|:Topics:|:Topics
+a:|:Unlock Topic:|:Unlock Topic
+a:|:Unstick Topic:|:Unstick Topic
+a:|:Updating All Topics:|:Updating All Topics
+a:|:View Topic:|:View Topic
+a:|:Yes:|:Yes
+a:|:You must be a registered user and logged in to monitor topics.:|:You must be a registered user and logged in to monitor topics.
+a:|:You must have a name for your forum.:|:You must have a name for your forum.
+a:|:You must have a subject for your message.:|:You must have a subject for your message.
+a:|:You tried to move it to current forum.:|:You tried to move it to current forum.
+a:|:Your forum was successfully saved.:|:Your forum was successfully saved.
+a:|:Your message was successfully forked.:|:Your message was successfully forked.
+a:|:Your message could not be forked.:|:Your message could not be forked.
+a:|:Your monitors have been cleared.:|:Your monitors have been cleared.
+a:|:Your settings have been successfully saved.:|:Your settings have been successfully saved.
+a:|:phpwsBB Settings:|:phpwsBB Settings
+a:|:phpwsBB User Settings:|:phpwsBB User Settings
+a:|:phpwsBB User Settings for "[var1]":|:phpwsBB User Settings for "[var1]"
+a:|:Edit [var1]:|:Edit [var1]
+a:|:Unban this IP:|:Unban this IP
+a:|:Ban this IP:|:Ban this IP
+a:|:Unban this Poster:|:Unban this Poster
+a:|:Ban this Poster:|:Ban this Poster
+a:|:Allow [var1] (Banned):|:Allow [var1] (Banned)
+a:|:Ban [var1]:|:Ban [var1]
+a:|:View New Posts:|:View New Posts
+a:|:New Posts Since My Last Visit on [var1]:|:New Posts Since My Last Visit on [var1]

@@ -1,0 +1,73 @@
+@version $Id: README,v 1.1 2005/01/08 00:19:10 wendall911 Exp $
+@author Wendall Cada <wendall911 [at] users.sourceforge.net>
+
+phpwsRSSFeeds - RSS News Feeds Module 
+https://sourceforge.net/projects/phpwebsite-comm/
+
+phpwsRSSFeeds is copyright (C) 2004 by those listed in docs/CREDITS
+
+BUGS
+====
+If you have any bugs to report, file them at:
+https://sourceforge.net/tracker/?atid=563513&group_id=81360
+
+Please be sure to search any existing bugs to avoid duplicates.
+
+CHANGELOG
+=========
+See docs/CHANGELOG for history of changes.
+
+CUSTOMIZATION
+=============
+To turn OFF the search function, comment out the section of /boost/install.php
+that registers the module with the search module.  The beginning and end of the
+section are indicated by comments in the file.  Then re-install the RSS Feeds
+module.
+
+DEVELOPERS NOTE
+==============
+This module was written using the item/manager system. I wrote this module to 
+extend the data collaboration features of phpWebSite through RSS Feeds. Enjoy!
+
+FUNCTIONALITY
+=============
+This module displays RSS Feeds and gives the ability to create local RSS feeds.
+
+INSTALLATION
+============
+See docs/INSTALL for installation instructions, as well as instructions on
+seeking support for phpwsRSSFeeds.
+
+LANGUAGE TRANSLATION
+====================
+
+There are no alternate language files available currently. We are in the process
+of switching to the use of .po files. At that time, I expect at minimum we will
+have English, German and Spanish available.
+
+LICENSE
+=======
+The software included in this directory is licensed under the GPL v2.
+See docs/LICENSE.txt for the full text of the license.
+
+REQUIREMENTS
+============
+phpWebSite v0.9.3-1 or above
+Additionally, you must have the supplemental patch for 0.9.3-1 that addresses
+some bugs.
+It can be found here:
+http://phpwebsite.appstate.edu/downloads/misc/phpws-0.9.3-1.supplemental.zip
+
+Alternatively, If you don't want to patch (not recommended), in
+core/Template.php  change line 158 from
+$this->getTemplateDir() to PHPWS_Template::getTemplateDir
+
+UN-INSTALLATION
+===============
+To uninstall this module, log in to your site as Deity, select Modules and then
+Boost Module Upgrader.  Locate 'RSS Feeds' in the list of modules, and click
+Uninstall.
+
+VERSION
+=======
+Version is listed as $version in conf/boost.php.

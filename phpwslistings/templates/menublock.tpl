@@ -1,0 +1,3 @@
+<!-- BEGIN MENUBLOCK -->
+{MENUBLOCK}
+<!-- END MENUBLOCK -->
